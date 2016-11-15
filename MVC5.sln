@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEMEX.Web", "CEMEX.Web\CEMEX.Web.csproj", "{51FCA29B-1CCB-4105-A158-91D89818D949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEMEX.Web.Tests", "CEMEX.Web.Tests\CEMEX.Web.Tests.csproj", "{88DA9164-459C-4CFE-90E5-CC6F43D49563}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51FCA29B-1CCB-4105-A158-91D89818D949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FCA29B-1CCB-4105-A158-91D89818D949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FCA29B-1CCB-4105-A158-91D89818D949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FCA29B-1CCB-4105-A158-91D89818D949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DA9164-459C-4CFE-90E5-CC6F43D49563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DA9164-459C-4CFE-90E5-CC6F43D49563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DA9164-459C-4CFE-90E5-CC6F43D49563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DA9164-459C-4CFE-90E5-CC6F43D49563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
