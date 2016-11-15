@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEMEX.Web", "CEMEX.Web\CEME
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEMEX.Web.Tests", "CEMEX.Web.Tests\CEMEX.Web.Tests.csproj", "{88DA9164-459C-4CFE-90E5-CC6F43D49563}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEMEX.Entidades", "CEMEX.Entidades\CEMEX.Entidades.csproj", "{8970F1C1-A265-44A8-B9B6-E159DB16AC19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{88DA9164-459C-4CFE-90E5-CC6F43D49563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88DA9164-459C-4CFE-90E5-CC6F43D49563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88DA9164-459C-4CFE-90E5-CC6F43D49563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8970F1C1-A265-44A8-B9B6-E159DB16AC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8970F1C1-A265-44A8-B9B6-E159DB16AC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8970F1C1-A265-44A8-B9B6-E159DB16AC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8970F1C1-A265-44A8-B9B6-E159DB16AC19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
