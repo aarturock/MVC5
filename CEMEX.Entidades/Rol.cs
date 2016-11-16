@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CEMEX.Entidades
 {
-    public class Class1
+    public class Rol
     {
+        public int Id { get; set; }
+
     }
 }
