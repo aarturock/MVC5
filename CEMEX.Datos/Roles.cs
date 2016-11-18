@@ -8,14 +8,17 @@ namespace CEMEX.Datos
     public class Roles
     {
         SqlCommand cmd;
+        SqlDataReader reader;
 
-        public List<Rol> GetRoles()
+        public List<Rol> GetRoles(int statusRegistro)
         {
             try
             {
                 using (SqlConnection conexion = new SqlConnection())
                 {
                     conexion.Open();
+                    cmd = conexion.CreateCommand();
+                  
                 }
 
             }
@@ -27,6 +30,7 @@ namespace CEMEX.Datos
             {
                 
             }
+
             return new List<Rol>();
         }
     }
